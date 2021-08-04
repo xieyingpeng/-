@@ -1,0 +1,51 @@
+section[id] {
+  margin: 0 auto;
+}
+#nav{
+	
+	margin-top: 50px;
+	font-size: 18px;
+	background: url(../images/bg5.jpg) ;
+	height: 700px;
+	width: 200px;
+	position: fixed;
+	margin-left: 310px;
+}
+
+nav ul {
+  margin: 0;
+  padding-left: 10px;
+  list-style: none;
+}
+
+#nav li > ul {
+  padding-left: 30px;
+}
+
+#nav a {
+  display: inline-block;
+  color: blue;
+  text-decoration: none;
+  transition: all 300ms ease-in-out;
+}
+  
+#nav li.visible > a {
+  color: #222;
+  transform: translate(5px);
+}
+#article{
+	margin-left: 500px;
+	
+	
+}
+#artics{
+	 width:1200px;
+	 height:700px; 
+	 float:left; 
+	 border:1px solid #F00;
+	 margin-left:10px;
+	 overflow:scroll; 
+	 background: url(../images/学习5.jpg) ;background-size: cover;
+	 margin-top: 50px;
+	 font-size: 20px;
+}

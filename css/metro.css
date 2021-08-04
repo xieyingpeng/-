@@ -1,0 +1,27 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+body{
+	height: 100%;
+	background-color: #000000;
+}
+#zl{
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 400px;
+	height: 400px;
+	background:url(../images/10.png);
+	float: left;
+	position: relative;
+}
+
+#zl img{
+	width: 400px;
+	height: 300px;
+}
+
+h2{
+	text-align: center;
+	padding-top: 10px;
+}
